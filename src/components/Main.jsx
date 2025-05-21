@@ -1,4 +1,4 @@
-import Store from './Storesection.jsx';
+import Store from './Store.jsx';
 
 export default function Main () {
     return (
