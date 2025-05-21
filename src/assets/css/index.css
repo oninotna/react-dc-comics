@@ -64,6 +64,34 @@
     font-size: 0.8rem;
 }
 
+/* ALERT SECTION */
+.alert {
+    text-align: center;
+}
+
+.alert-message {
+    font-size: 1.5rem;
+}
+
+.alert-info {
+    background-color: rgba(0, 130, 130, 0.519);
+    color: aqua;
+}
+
+.alert-error {
+    background-color: rgba(130, 0, 0, 0.512);
+    color: red;
+}
+
+.alert-warning {
+    background-color: rgba(130, 130, 0, 0.497);
+    color: yellow;
+}
+
+.alert-success {
+    background-color: rgba(0, 128, 0, 0.509);
+    color: green;
+}
 
 /* STORE SECTION */
 .store-section {
@@ -86,6 +114,7 @@
 .top-footer-section {
     height: 350px;
     background-image: url("../../../public/img/footer-bg.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

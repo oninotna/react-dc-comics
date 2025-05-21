@@ -1,4 +1,5 @@
 import Store from './Store.jsx';
+import Alert from './UI/Alert.jsx';
 
 export default function Main () {
     return (
@@ -7,7 +8,8 @@ export default function Main () {
             <div className="container">
               <h1>--&gt; Content goes here &lt;--</h1>              
             </div>
-        </div> 
+        </div>
+        <Alert type="stocazzo"/>
         <Store />
         </>
     );
