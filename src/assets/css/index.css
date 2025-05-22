@@ -50,6 +50,15 @@
     padding-bottom: 3.3rem;
 }
 
+.header-link li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.header-link .active:hover {
+    padding-bottom: 2.6rem;
+}
+
 .header-link a {
     text-decoration: none;
     color: black;
@@ -103,6 +112,11 @@
 .store-section figure {
     display: flex;
     align-items: center;
+}
+
+.store-section figure:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .store-section img {

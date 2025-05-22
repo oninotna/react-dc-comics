@@ -1,13 +1,13 @@
-function AlertMsg({type, message}) {
-  return (
-    <div className="alert-section">
-      <div className={`alert alert-${type}`}>
-        <h1>Type error: {type}</h1>
-        <div className="alert-message">{message}</div>
-      </div>
-    </div>
-  );
-}
+// function AlertMsg({type, message}) {
+//   return (
+//     <div className="alert-section">
+//       <div className={`alert alert-${type}`}>
+//         <h1>Type error: {type}</h1>
+//         <div className="alert-message">{message}</div>
+//       </div>
+//     </div>
+//   );
+// }
 
 export default function Alert({ type, children }) {
   const correctTypes = ["error", "info", "warning", "success"];
