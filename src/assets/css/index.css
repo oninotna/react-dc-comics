@@ -102,12 +102,40 @@
     padding: 10px 20px;
 }
 
-.main-section .card-img {
+.main-section .card {
     width: 180px;
+    position: relative;
+}
+
+.main-section .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.main-section .card-img {
+    width: 100%;
     height: 180px;
 
     background-size: cover;
+    margin-bottom: 1rem;
 }
+
+.main-section .card .comic-price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(25%, -25%);
+
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(229, 255, 0);
+    color: black;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 /* ALERT SECTION */
 .alert {
     display: none;
