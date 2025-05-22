@@ -1,21 +1,17 @@
+// ! LAYOUT COMPONENTS
 import Header from './components/Header.jsx';
 import Main from './components/Main.jsx';
 import Footer from './components/Footer.jsx';
+
+// ! DATA 
+import comicsData from './data/comics.js';
 
 export default function App () {
     return ( 
     <>
       <Header />
-      <Main />
+      <Main comics={comicsData} />
       <Footer />
     </>
     );
 };
-
-// const App = () => (
-//     <h1>
-//         Ciao
-//     </h1>
-// );
-
-// export default App;
